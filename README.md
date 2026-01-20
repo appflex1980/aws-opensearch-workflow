@@ -1,9 +1,9 @@
-<img width="800" height="533" alt="image" src="https://github.com/user-attachments/assets/a1c20c31-e564-4408-9f07-479fbd32d730" />
+<img width="794" height="533" alt="image" src="https://github.com/user-attachments/assets/53ab8549-90ce-4642-98b9-9a94ea1f2162" />
 
 
 
 ## AWS | OpenSearch
-Architecture with public and private subnets, an Application Load Balancer (ALB), EC2 instances, and private resources. It demonstrates how users interact with the system, and how scaling and secure resource access are managed.
+Scalable AWS serverless architecture built inside a VPC, designed for data ingestion, processing, indexing, and search
 
 
 
@@ -14,7 +14,6 @@ Architecture with public and private subnets, an Application Load Balancer (ALB)
 ✅ NAT Gateway in the public subnet for private subnet egress
 ✅ Auto Scaling Group (ASG) using a Launch Template
 ✅ EC2 instances in the ASG, scaling in/out automatically
-✅ Users hitting the system via the public internet
 ✅ Private resources (like RDS, caches) in the private subnets
 ```
 
