@@ -5,6 +5,7 @@ provider "aws" {
 
 # --- DATA: availability zones ---
 data "aws_availability_zones" "available" {}
+data "aws_caller_identity" "current" {}
 
 # --- VPC ---
 resource "aws_vpc" "main" {
