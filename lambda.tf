@@ -23,7 +23,7 @@ resource "aws_lambda_function" "opensearch" {
   role          = aws_iam_role.lambda_role.arn
   handler       = "index.handler"
   runtime       = "nodejs20.x"
-  filename      = "lambda.zip"  # Your code zip
+  filename      = "./lambda/function.zip"  # Your code zip
 
   vpc_config {
     subnet_ids         = aws_subnet.private[*].id
