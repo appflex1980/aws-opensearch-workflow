@@ -1,4 +1,5 @@
 
+
 resource "aws_security_group" "opensearch_public" {
   name        = "opensearch-public-sg"
   description = "Allow public OpenSearch access"
